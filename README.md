@@ -1,6 +1,25 @@
 # Business/App Idea Bringer
 
-A country-first discovery workspace for finding and validating practical, differentiated, profitable app ideas in multiple markets.
+A country-first opportunity analysis framework for finding and validating practical, differentiated app businesses in multiple markets.
+
+It starts with a chosen country, gathers traceable evidence about that market, identifies underserved customer workflows, and returns ranked opportunity domains and concrete app concepts. It is designed to support decisions and customer discovery, not to claim that desk research proves demand.
+
+## Framework documents
+
+- [Operational framework](framework/README.md): the reusable discovery skill, country-first evidence workflow, decision rules, and deterministic helpers adapted from an MIT-licensed opportunity-discovery repo.
+- [Analysis methodology](docs/ANALYSIS_FRAMEWORK.md): stages, business standards, evidence rules, scoring, and decision gates.
+- [Analysis brief and report template](docs/ANALYSIS_TEMPLATE.md): reusable inputs and a consistent output format for each country study.
+
+## Expected result
+
+Each analysis should end with:
+
+1. A short market context with dated, linked evidence and country-specific constraints.
+2. A ranked list of opportunity **domains** (customer/problem areas), with evidence, risks, and confidence separated.
+3. Specific app concepts for the strongest domains, each tied to a buyer, recurring job, current workaround, and plausible business model.
+4. A validation plan with interviews and small experiments, plus clear advance, pivot, and stop conditions.
+
+The initial Tunisia example below is a worked starting point, not a default country or a set of validated opportunities.
 
 ## Product flow
 
@@ -30,19 +49,11 @@ For each candidate, record:
 - **Test:** smallest manual or no-code experiment, target participants, success threshold, and stop condition.
 - **Confidence:** distinguish verified facts, customer statements, observed behavior, estimates, and assumptions.
 
-## Early selection scorecard
+## Opportunity comparison
 
-Score each candidate 1-5 and write the evidence behind each score:
+Screen fatal risks before scoring. Set criteria and weights for the decision objective, use evidence-anchored 0–4 ratings or ranges, and keep confidence separate from opportunity score. A ranking is provisional when key evidence is missing or the winner changes under reasonable assumptions. See the [scoring method](framework/references/scoring-model.md).
 
-- Pain and cost of current workaround (weight x3)
-- Frequency and urgency (x2)
-- Identifiable buyer and budget authority (x3)
-- Ability to reach ten target customers quickly (x2)
-- Existing spend or willingness-to-pay evidence (x3)
-- Small manual test possible within two weeks (x2)
-- Differentiation from current tools and status quo (x2)
-
-Desk-research-only scores remain unvalidated. Advance only after customer interviews and a behavior-based pilot.
+Desk-research-only results remain hypotheses. Advance through customer interviews and behavior-based tests before considering a build.
 
 ## Initial country: Tunisia
 
