@@ -1,46 +1,71 @@
-# Business/App Idea bringer
+# Business/App Idea Bringer
 
-A working discovery project to find and validate a simple, differentiated, and profitable app idea for Tunisia.
+A country-first discovery workspace for finding and validating practical, differentiated, profitable app ideas in multiple markets.
 
-## Goal
-Choose a narrowly defined customer and recurring problem where a lightweight product can deliver measurable value, then validate with real customer behavior before building.
+## Product flow
 
-## Working method
-1. Map customer groups and their recurring workflows.
-2. Gather evidence from public data, competitor research, and direct observation.
-3. Interview potential customers about the last time the problem occurred and how they handle it now.
-4. Rank problems by pain, frequency, buyer clarity, ability to reach buyers, and willingness-to-pay evidence.
-5. Run a manual or no-code pilot with explicit success and stop criteria.
-6. Build only after repeated use and credible payment commitment.
+1. **Ask for the country first.** The first question in a new discovery session is: “Which country should we analyse?” Do not silently assume Tunisia.
+2. Confirm the country and, when it matters, a city or region, target language, founder skills, budget, and whether the user prefers business or consumer customers.
+3. Map candidate customer groups and recurring workflows in that market.
+4. Research local demand signals, competitors and workarounds, buyer economics, market size proxies, relevant regulations, digital access, payment norms, and distribution channels.
+5. Label desk-research findings as hypotheses. Do not present them as customer validation.
+6. Prepare local customer interviews and run low-cost, behavior-based tests.
+7. Rank opportunities by pain, frequency, buyer clarity, reachability, willingness-to-pay evidence, differentiation, and ease of testing.
+8. Recommend a next test or a clear stop/pivot decision before any app is built.
 
-## Tunisia market signals (initial desk research, 15 Nov 2026)
+## Core principle
 
-These are hypotheses to investigate, not validated product opportunities.
+Choose the customer problem before choosing an app. A large market or a popular-sounding idea is not enough. Seek a specific buyer with a frequent, costly problem and test using recent behavior, current workarounds, and real commitments.
 
-- **SME workflow software:** The World Bank Enterprise Survey for Tunisia (2024) reports access to finance as the top stated business environment obstacle (29% overall; 36% among small firms), followed by tax rates (17%) and electricity (10%). The app opportunity is not “solve access to finance” in general; investigate adjacent operating workflows with measurable costs and a clear payer.
-- **Energy continuity and efficiency:** Electricity is reported as the third-highest overall obstacle (10%) and the leading one for large firms (22%). Explore sector-specific loss tracking, backup-power operations, or energy efficiency only where a user can quantify the cost and adopt a practical fix.
-- **Trade/export operations:** A 2025 UNECA SME survey summary says Tunisian SMEs show export ambition but gaps in market intelligence, structured distribution, rules of origin, and trade compliance. Potential buyer and revenue model need checking; “export help app” is too broad.
-- **Tourism operations:** INS reports 2025 domestic tourism spending of TND 17.47bn, of which TND 12.77bn (73.1%) was by non-resident visitors. This is a substantial sector, but an app must solve a narrow operator problem rather than add another tourist directory.
-- **Payments:** SIIPS 2025 fieldwork (Feb-Apr 2025; 53 MSMEs, 54 individuals surveyed plus interviews) describes cash as prevalent and identifies reliability/support issues around digital payments. Digital-payment uptake itself is a weak standalone pitch; seek a business workflow with measurable value that works with cash and bank transfers too.
+## Market analysis framework
 
-## Initial candidate customer groups
+For each candidate, record:
 
-| Customer group | Workflow/problem to investigate | Why investigate | Main risk |
+- **Customer:** narrow group, role, geography, and buyer/user distinctions.
+- **Job and pain:** recent example, frequency, urgency, time or money lost.
+- **Current alternatives:** apps, competitors, spreadsheets, social networks, cash, manual work, or doing nothing.
+- **Market evidence:** local public statistics, credible reports, search signals, relevant directories, and direct interviews. Cite sources and dates.
+- **Business model:** who pays, for what outcome, expected price range, sales channel, and delivery costs.
+- **Country fit:** language, local habits, payments, legal/regulatory constraints, infrastructure, and city/region variation.
+- **Test:** smallest manual or no-code experiment, target participants, success threshold, and stop condition.
+- **Confidence:** distinguish verified facts, customer statements, observed behavior, estimates, and assumptions.
+
+## Early selection scorecard
+
+Score each candidate 1-5 and write the evidence behind each score:
+
+- Pain and cost of current workaround (weight x3)
+- Frequency and urgency (x2)
+- Identifiable buyer and budget authority (x3)
+- Ability to reach ten target customers quickly (x2)
+- Existing spend or willingness-to-pay evidence (x3)
+- Small manual test possible within two weeks (x2)
+- Differentiation from current tools and status quo (x2)
+
+Desk-research-only scores remain unvalidated. Advance only after customer interviews and a behavior-based pilot.
+
+## Initial country: Tunisia
+
+Tunisia is the first worked example, not a fixed product boundary. Findings below are local signals to investigate, not validated app opportunities.
+
+- The World Bank Enterprise Survey for Tunisia (2024) reports access to finance as the top stated business environment obstacle (29% overall; 36% among small firms), followed by tax rates (17%) and electricity (10%). An app should target a specific workflow with a buyer and measurable outcome, not claim to solve broad structural finance barriers.
+- INS reports 2025 domestic tourism spending of TND 17.47bn, including TND 12.77bn (73.1%) by non-resident visitors. Investigate operator workflows rather than starting with another tourist directory.
+- SIIPS 2025 fieldwork in Tunisia describes cash as prevalent and identifies reliability/support issues around digital payments. Digital-payment uptake itself is a weak standalone pitch; test value in workflows that also work with cash and bank transfers.
+- A 2025 UNECA SME survey summary says Tunisian SMEs show export ambition but gaps in market intelligence, distribution, rules of origin, and trade compliance. Validate the buyer, budget, and sales cycle before pursuing this direction.
+
+### Tunisia interview shortlist
+
+| Customer group | Workflow to investigate | Why investigate | Main risk |
 |---|---|---|---|
-| Small manufacturers/exporters | Quote follow-up, shipment paperwork, buyer discovery, compliance records | Formal business buyer; trade expansion is a stated SME gap | Regulatory/data complexity; long sales cycle |
-| Tourism SMEs (guesthouses, activity operators, small hotels) | Managing inquiries, availability, cancellations, and off-platform bookings | Large visitor spending base | Seasonal demand; strong existing booking channels |
-| Power-sensitive businesses (cold storage, food retail, workshops) | Measuring outage losses, coordinating backup power, preventing spoilage | Firms report electricity as a business constraint | Hardware/field operations may be needed; who pays is unclear |
-| Online sellers / social-commerce merchants | COD confirmation, failed-delivery prevention, order reconciliation | Direct link to avoidable cost and revenue | Must validate prevalence and willingness to pay locally |
-| Clinics and appointment-based services | No-show reduction and filling cancellations | Recoverable revenue can be measured | Existing reminder practices; sensitive data and integrations |
-| Importers/wholesalers | Stockout and replenishment coordination across suppliers and retailers | Clear recurring operational job | Incumbent software and informal workflows |
-
-## Current priority for discovery
-
-Start with interviews across **online sellers/social-commerce merchants**, **tourism SMEs**, and **small exporters/manufacturers**. These have more direct buyer/value hypotheses than broad infrastructure or consumer-marketplace ideas. Do not select a winner from desk research alone.
+| Online sellers / social-commerce merchants | COD confirmation, failed-delivery prevention, order reconciliation | Potentially measurable loss and recurring operations | Verify local prevalence and payment willingness |
+| Tourism SMEs (guesthouses, activity operators, small hotels) | Inquiries, availability, cancellations, off-platform bookings | Large tourism spend base | Seasonal demand and established booking channels |
+| Small exporters / manufacturers | Quote follow-up, shipment paperwork, buyer discovery, compliance records | Formal buyer; trade expansion is a stated SME gap | Regulatory complexity and longer sales cycle |
+| Power-sensitive businesses | Outage-loss logging, backup-power coordination, spoilage prevention | Electricity is a reported business constraint | Hardware/field operations; buyer remains uncertain |
 
 ## Interview rules
 
 Ask about recent behavior, not hypothetical interest:
+
 - Tell me about the last time this problem happened.
 - What did you do, step by step?
 - How often does it happen, and what did it cost in time, money, or lost sales?
@@ -48,20 +73,7 @@ Ask about recent behavior, not hypothetical interest:
 - Have you paid to solve it or tried alternatives?
 - Who decides and controls the budget?
 
-Do not pitch an app during problem interviews. Seek a paid pilot or concrete commitment only after the customer confirms a recurring costly problem.
-
-## Early selection scorecard
-
-Score each candidate 1-5 and record evidence beside every score:
-- Pain and cost of current workaround (weight x3)
-- Frequency/urgency (x2)
-- Identifiable buyer and budget authority (x3)
-- Ability to reach ten target customers quickly (x2)
-- Existing spend or willingness-to-pay evidence (x3)
-- Small manual test possible within two weeks (x2)
-- Differentiation from current tools and status quo (x2)
-
-Any score based only on public desk research remains **unvalidated**. Advance only after customer interviews and a behavior-based pilot.
+Do not pitch an app during problem interviews. Seek a paid pilot or concrete commitment only after the customer confirms a recurring, costly problem.
 
 ## Sources
 
